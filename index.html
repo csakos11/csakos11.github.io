@@ -22,9 +22,14 @@
             text-align: center;
         }
         .large-text {
-            font-size: 200px; /* A szöveg méretét megtartottam */
+            font-size: 200px; /* A szöveg mérete maradt 200px */
             margin: 0; /* Eltávolítja a fölötte és alatta lévő extra margókat */
             line-height: 1; /* Csökkenti a sorok közötti távolságot */
+        }
+        .arrow {
+            font-size: 200px; /* A nyíl mérete maradt 200px */
+            margin: 0; /* Margin felül és alul nullázva */
+            padding-bottom: 30px; /* Tér hozzáadva a nyíl alá, hogy ne lógjon bele a linkbe */
         }
         a {
             font-size: 30px; /* A link szövegének mérete 30px marad */
@@ -47,8 +52,8 @@
 </header>
 
 <main>
-    <p class="large-text">𝖌𝖊𝖈𝖎</p> <!-- Ez 70px méretű, a margin eltávolítva -->
-    <p class="large-text">↓</p>
+    <p class="large-text">𝖌𝖊𝖈𝖎</p> <!-- Ez 200px méretű -->
+    <p class="arrow">↓</p> <!-- A nyíl 200px, alatta extra tér -->
     <a href="http://kurva.me">nyomj ide!</a> <!-- Ez 30px méretű -->
 </main>
 
