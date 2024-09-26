@@ -22,11 +22,12 @@
             text-align: center;
         }
         .large-text {
-            font-size: 200px; /* A nagyobb szövegméret 70px-re állítva */
-            padding: 0px;
+            font-size: 70px; /* A szöveg méretét megtartottam */
+            margin: 0; /* Eltávolítja a fölötte és alatta lévő extra margókat */
+            line-height: 1; /* Csökkenti a sorok közötti távolságot */
         }
         a {
-            font-size: 30px; /* A link szövegének mérete 30px-re állítva */
+            font-size: 30px; /* A link szövegének mérete 30px marad */
         }
         footer {
             background-color: #333;
@@ -46,7 +47,7 @@
 </header>
 
 <main>
-    <p class="large-text">𝖌𝖊𝖈𝖎</p> <!-- Ez 70px méretű -->
+    <p class="large-text">𝖌𝖊𝖈𝖎</p> <!-- Ez 70px méretű, a margin eltávolítva -->
     <p>↓</p>
     <a href="http://kurva.me">nyomj ide!</a> <!-- Ez 30px méretű -->
 </main>
